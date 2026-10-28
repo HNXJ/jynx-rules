@@ -1,24 +1,10 @@
-# gamma-protocol
+# jynx-rules
 
-Legal moves, contracts and governance; intended authoritative home of the protocol JSON Schemas.
+Legal moves, contracts and governance; authoritative home for protocol schemas.
 
-Proposed future name: **jynx-rules** (proposal, not renamed yet)
+Part of the jynx game: [engine](https://github.com/HNXJ/jynx-engine) · [arena](https://github.com/HNXJ/jynx-arena) · [rules](https://github.com/HNXJ/jynx-rules) · [science](https://github.com/HNXJ/jynx-science) · [lab](https://github.com/HNXJ/jynx-lab) · [judge](https://github.com/HNXJ/jynx-judge) · [world](https://github.com/HNXJ/jynx-world)
 
-## Place in the 7-repo layout
+- Markdown contracts in `contracts/`, doctrine in `doctrine/`, templates in `templates/`.
+- Markdown schema specs in `schemas/`; JSON Schemas are still provisional in [jynx-engine](https://github.com/HNXJ/jynx-engine/tree/main/schemas).
 
-Plane: **RULES**. See [HNXJ/jynx-arena](https://github.com/HNXJ/jynx-arena) and its [architecture](https://github.com/HNXJ/jynx-arena/blob/main/docs/protocol/ARCHITECTURE.md) (ARENA, RULES, SCIENCE, LAB, ENGINE, JUDGE, WORLD). The current jynx-arena runtime is proposed to become **jynx-engine**; **jynx-world** (event ledger, projections) is a new proposed repo.
-
-## Holds today
-
-- Markdown contracts in `contracts/` (agent, harness, judge, observation, patch, quest, receipt).
-- Doctrine in `doctrine/`, policies in `docs/`, templates in `templates/`.
-- Schema specs in `schemas/` (Markdown only; the JSON Schemas are provisionally in jynx-arena per [SCHEMA_AUTHORITY](https://github.com/HNXJ/jynx-arena/blob/main/docs/protocol/SCHEMA_AUTHORITY.md)).
-
-## Shared root layout (target, not yet applied)
-
-`artifacts/`, `docs/`, `src/`, `schemas/`, `tests/`, `tournaments/`, `README.md` — see [SHARED_ROOT_LAYOUT](https://github.com/HNXJ/jynx-arena/blob/main/docs/protocol/SHARED_ROOT_LAYOUT.md).
-
-## Truth safety
-
-A Judge PASS means a submission met a rubric under a protocol version; it is not scientific truth.
-
+Formerly gamma-protocol.
